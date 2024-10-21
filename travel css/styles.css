@@ -144,5 +144,36 @@ select {
     border: 1px solid rgba(255, 84, 0);
     border-radius: 8px;
     cursor: pointer;
+    font-weight: 600;
 
+}
+
+/* popular section */
+.popular-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    justify-content: space-between;
+    padding-left: 14rem;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: space-between;
+}
+
+.text-content p,
+li {
+    text-align: left;
+    font-size: 16px;
+    line-height: 20px;
+    word-spacing: 5px;
+}
+
+.text-content h2 {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 800;
 }
