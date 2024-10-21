@@ -236,3 +236,151 @@ li {
     font-weight: bold;
     transform: translate(-50%, -50%);
 }
+
+
+.My-Target-Web {
+    border: 2px solid rgba(13, 19, 33, 0.02);
+    margin-top: 90px;
+    border-radius: 16px;
+    margin-left: 340px;
+    text-align: center;
+}
+
+.My-Target h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 26px;
+}
+
+.My-Target p {
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 20px 40px;
+}
+
+.My-Target-Frame {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 22px;
+}
+
+.My-Target-Card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.My-Target-Card1 {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.My-Target-Card1 img {
+    width: 56px;
+    height: 56px;
+}
+
+.My-Target-Card1 h2 {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.My-Target-Card1 p {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin: 0;
+    margin-top: 20px;
+    opacity: 0.7;
+    letter-spacing: 0%;
+}
+
+.My-Target-Card2 img {
+    width: 56px;
+    height: 56px;
+}
+
+.My-Target-Card2 h2 {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.My-Target-Card2 p {
+    line-height: 26px;
+    text-align: left;
+    margin: 0;
+    margin-top: 20px;
+    opacity: 0.7;
+    letter-spacing: 0%;
+}
+
+.My-Target-Card2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 16px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.My-Target-Card img {
+    width: 56px;
+    height: 56px;
+}
+
+.My-Target-Card h2 {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.My-Target-Card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin: 0;
+    margin-top: 20px;
+    opacity: 0.7;
+    letter-spacing: 0%;
+}
+
+/* footer section */
+.footer-section {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 2rem 0;
+}
+
+.footer-section,
+.logo {
+    margin: 2rem auto;
+
+}
+
+.social {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    cursor: pointer;
+}
+
+.social i {
+    height: 44px;
+    font-size: 24px;
+
+}
+
+.footer-section hr {
+    margin: 2rem 0;
+}
